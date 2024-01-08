@@ -7,7 +7,8 @@ import streamlit as st
 from babel.numbers import format_currency
 sns.set(style="dark")
 
-all_df = pd.read_csv("https://raw.githubusercontent.com/agungdiah/e-commerce-analysis-report/master/dashboard/main_data.csv")
+all_df = pd.read_csv("https://raw.githubusercontent.com/agungdiah/e-commerce-analysis-report/master/dashboard/main_data.csv?token=GHSAT0AAAAAACMEUQCNRP6GKNVRGDRNTVL2ZM4Q3LQ
+")
 
 # membuat header
 st.header('Olist Store')
